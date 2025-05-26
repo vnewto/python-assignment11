@@ -1,0 +1,6 @@
+.idea
++.DS_Store*
+*.rb
+.vscode
+CACHEDIR.TAG
+.venv/
