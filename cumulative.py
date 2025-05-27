@@ -34,13 +34,3 @@ plt.title('Cumulative Revenue by Order')
 plt.xlabel('Order ID')
 plt.ylabel('Revenue ($)')
 plt.show()
-
-
-## Task 3
-import plotly.express as px
-import plotly.data as pldata
-df = pldata.wind(return_type='pandas')
-
-#print 1st and last 10 lines of df
-df.head(10)
-df.tail(10)
